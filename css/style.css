@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul li {
+    display: inline;
+    margin: auto;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnMenu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+
+.btn1 {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+    
+.btn1:hover {
+    background-color: #60605e;
+}
+
+main > #services, #booking, #contact {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#hero {
+    background: url(../images/barber.avif) no-repeat center center/cover;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero > .container {
+    padding: 40px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+#services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#services .services-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+#services .service-item {
+    width:30%
+}
+
+#booking {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#booking-form  {
+    display: inline-block;
+    text-align: left;
+}
+
+#booking-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#booking-form input, #booking-form select, #booking-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}

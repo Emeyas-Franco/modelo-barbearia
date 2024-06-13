@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Premium</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Barbearia Premium</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services" class="btnMenu btn1">Serviços</a></li>
+                    <li><a href="#booking" class="btnMenu btn1">Agendar</a></li>
+                    <li><a href="#contact" class="btnMenu btn1">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Bem-vindo à Barbearia Premium</h2>
+                <p>Onde o seu estilo é nossa prioridade.</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="services-item">
+                    <h3>Corte de Cabelo</h3>
+                    <p>Descrição do serviço de corte de cabelo.</p>
+                </div>
+                <div class="services-item">
+                    <h3>Barbearia</h3>
+                    <p>Descrição do serviço de barba.</p>
+                </div>
+                <div class="services-item">
+                    <h3>Tratamentos</h3>
+                    <p>Descrição dos tratamentos oferecidos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="booking">
+            <div class="container">
+                <h2>Agende seu horário</h2>
+                <form action="" id="booking-form">
+                    <label for="name">Nome: </label> <input type="text" id="name" name="name" required>
+                    <label for="cel">Celular: </label> <input type="tel" name="cel" id="cel" required>
+                    <label for="email">Email: </label> <input type="email" id="email" name="email" required>
+                    <label for="service">Serviço: </label> <select name="service" id="service" required>
+                        <option value="corte">Corte de Cabelo</option>
+                        <option value="barba">Barba</option>
+                        <option value="tratamento">Tratamentos</option>
+                    </select>
+                    <label for="date">Data: </label> <input type="date" id="date" name="date" required>
+                    <label for="time">Hora: </label> <input type="time" id="time" name="time" required>
+                    <button type="submit" id="btnSubmit">Agendar</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Email: contato@barbeariapremium.com</p>
+                <p>Telefone: (62) 99999-9999</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Barbearia Premium. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
