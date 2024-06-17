@@ -1,31 +1,36 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-body {
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
     background-color: #333;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 header {
-    background: #333;
     color: #fff;
     padding: 1rem;
 }
 
 header h1 {
-    font-size: 4em;
-    text-align: center;
-    font-family: "Zen Dots";
+    font-size: 2.1em;
+    font-family: 'Zen Dots';
+    margin: 20px 0px;
 }
 
 header nav ul {
-    text-align: center;
-    list-style: none;
     margin: 0 auto;
     padding: 0;
 }
@@ -33,24 +38,19 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin: auto;
-    padding: 10px 10%;
 }
 
 header nav ul li a {
     color: #fff;
-    text-decoration: none;
 }
 
 .btnMenu {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.7rem 2rem;
-    font-weight: 700;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
+    padding: 0.7rem 1.8rem;
+    font-size: bolder;
+    font-size: 12px;
     backface-visibility: hidden;
     border: 0.3rem solid transparent;
     border-radius: 3rem;
@@ -60,29 +60,27 @@ header nav ul li a {
     border-color: transparent;
     transition: background-color 0.3s ease-in-out;
 }
-    
+
 .btn1:hover {
     background-color: #60605e;
 }
 
-main > #services, #booking, #contact {
-    max-width: 800px;
+main > #services, #booking, #contact, #location {
     margin: 0 auto;
     background-color: #fff;
 }
 
 #hero {
     background: url(../images/barber.avif) no-repeat center center/cover;
-    font-size: 2em;
+    font-size: 1.6em;
     color: #fff;
-    text-align: center;
-    padding: 100px 0;
+    padding: 100px 0 ;
 }
 
 #hero > .container {
     padding: 40px 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 #services {
@@ -90,13 +88,17 @@ main > #services, #booking, #contact {
     text-align: center;
 }
 
+#services h2 {
+    font-size: 2em;
+}
+
 #services .services-list {
+    padding: 10px;
     display: flex;
     justify-content: space-around;
 }
-
-#services .service-item {
-    width:30%
+#services .services-item {
+    padding: 5px 0;
 }
 
 #booking {
@@ -104,7 +106,7 @@ main > #services, #booking, #contact {
     text-align: center;
 }
 
-#booking-form  {
+#booking-form {
     display: inline-block;
     text-align: left;
 }
@@ -114,10 +116,10 @@ main > #services, #booking, #contact {
     margin-top: 10px;
 }
 
-#booking-form input, #booking-form select, #booking-form button {
+#booking-form > input, select, button {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 button {
@@ -127,17 +129,10 @@ button {
 }
 
 #contact {
-    padding: 50px 0;
-    text-align: center;
+    padding: 30px 0;
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
+    color: white;
     padding: 1rem 0;
-}
-
-footer p {
-    margin: 0;
 }
