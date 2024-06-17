@@ -48,9 +48,9 @@ header nav ul li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.7rem 1.8rem;
+    padding: 0.7rem .5rem;
     font-size: bolder;
-    font-size: 12px;
+    font-size: 14px;
     backface-visibility: hidden;
     border: 0.3rem solid transparent;
     border-radius: 3rem;
@@ -72,7 +72,7 @@ main > #services, #booking, #contact, #location {
 
 #hero {
     background: url(../images/barber.avif) no-repeat center center/cover;
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #fff;
     padding: 100px 0 ;
 }
@@ -97,6 +97,7 @@ main > #services, #booking, #contact, #location {
     display: flex;
     justify-content: space-around;
 }
+
 #services .services-item {
     padding: 5px 0;
 }
